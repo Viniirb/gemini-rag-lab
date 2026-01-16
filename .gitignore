@@ -1,0 +1,40 @@
+# Python Backend
+backend/__pycache__/
+backend/*.py[cod]
+backend/*$py.class
+backend/.venv/
+backend/venv/
+backend/env/
+
+# Variáveis de ambiente e API Keys (CRÍTICO!)
+backend/.env
+backend/.env.local
+*.key
+*.pem
+secrets.json
+credentials.json
+
+# Documentos RAG - podem conter informações sensíveis
+backend/documentos/
+*.pdf
+
+# Frontend (caso não tenha .gitignore próprio)
+frontend/node_modules/
+frontend/dist/
+frontend/.angular/
+frontend/package-lock.json
+
+# IDEs e Editores
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Logs
+*.log
+
+# Sistema Operacional
+Thumbs.db
+Desktop.ini
