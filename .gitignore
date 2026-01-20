@@ -5,6 +5,7 @@ backend/*$py.class
 backend/.venv/
 backend/venv/
 backend/env/
+backend/scripts/__pycache__/
 
 # Variáveis de ambiente e API Keys (CRÍTICO!)
 backend/.env
@@ -38,3 +39,9 @@ frontend/package-lock.json
 # Sistema Operacional
 Thumbs.db
 Desktop.ini
+
+#Workspace settings
+*.code-workspace
+
+#arquivo md do dicionário
+*.md
